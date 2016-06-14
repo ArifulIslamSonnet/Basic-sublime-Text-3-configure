@@ -11,9 +11,14 @@ To install package control , go here [Package Control](https://packagecontrol.io
 Simply follow the instruction to the given link. 
 
 ##Install Must Needed plugin for sublime Text 3 
-- 
+- [DocBlockr](https://github.com/spadgos/sublime-jsdocs "DocBlockr")
+- [Emmet](https://github.com/sergeche/emmet-sublime/ "Emmet")
+- [jQuery](https://github.com/SublimeText/jQuery "jQuery")
+- [Sublime Text 2 WordPress](https://github.com/purplefish32/sublime-text-2-wordpress "Sublime Text 2 WordPress")
+- [Search Word​Press Codex](https://github.com/welovewordpress/SublimeWordPressCodex "Search Word​Press Codex")
+- [Word​Press Developer Resources](https://packagecontrol.io/packages/WordPress%20Developer%20Resources "Word​Press Developer Resources")
 
-
+## Ovverright Some default Settings. 
 Go to `Preference -> Settings-User` and paste this configuration. 
 
 ```json
@@ -36,6 +41,7 @@ Go to `Preference -> Settings-User` and paste this configuration.
     "translate_tabs_to_spaces": true,
     "trim_automatic_white_space": true,
     "use_tab_stops": true,
+    "auto_complete_selector": "source, text",
     "word_wrap": "true"
 }
 ```
