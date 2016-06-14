@@ -11,6 +11,7 @@ To install package control , go here [Package Control](https://packagecontrol.io
 Simply follow the instruction to the given link. 
 
 ##Install Must Needed plugin for sublime Text 3 
+- [Bootstrap 3 Snippets](https://github.com/JasonMortonNZ/bs3-sublime-plugin#installation "Bootstrap 3 Snippets")
 - [DocBlockr](https://github.com/spadgos/sublime-jsdocs "DocBlockr")
 - [Emmet](https://github.com/sergeche/emmet-sublime/ "Emmet")
 - [jQuery](https://github.com/SublimeText/jQuery "jQuery")
@@ -42,6 +43,7 @@ Go to `Preference -> Settings-User` and paste this configuration.
     "trim_automatic_white_space": true,
     "use_tab_stops": true,
     "auto_complete_selector": "source, text",
+    "auto_complete_triggers": [{"selector": "text.html", "characters": "<"},{"selector": "text.html", "characters": "bs3"}],
     "word_wrap": "true"
 }
 ```
