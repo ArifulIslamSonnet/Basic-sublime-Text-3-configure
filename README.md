@@ -19,6 +19,18 @@ Simply follow the instruction to the given link.
 - [Search Word​Press Codex](https://github.com/welovewordpress/SublimeWordPressCodex "Search Word​Press Codex")
 - [Word​Press Developer Resources](https://packagecontrol.io/packages/WordPress%20Developer%20Resources "Word​Press Developer Resources")
 
+For some case, We need to debug our Javascript code. It's painful to find error on large javascript code. This is why I normally use SublimeLinter-jshint. 
+
+Now get started to install Jshint . You must installed `NodeJs` in order to use `sublimeLinter` and `sublimelinter-jslint` .  
+After installed NodeJS run this code in commandline. 
+`npm install -g jshint` 
+Linux user need to use `sudo`. 
+
+Now open sublime text and search and install these (`sublimeLinter` and `sublimelinter-jslint`) package using sublime text  package manager. 
+
+Now open javascript file into sublime text 3 and check it's working. If you write any error , it will fire a error notice. 
+
+
 ## Ovverright Some default Settings. 
 Go to `Preference -> Settings-User` and paste this configuration. 
 
